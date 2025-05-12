@@ -36,3 +36,24 @@
 .education-card:hover {
   transform: scale(1.05);
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .education-section {
+    padding: 2rem 3%;
+  }
+
+  .education-title {
+    font-size: 2rem;
+  }
+
+  .education-cards {
+    gap: 1.5rem;
+  }
+
+  .education-card {
+    width: 100%;
+    max-width: 350px;
+    padding: 1.2rem;
+  }
+}

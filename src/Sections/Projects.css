@@ -1,4 +1,3 @@
-
 .projects-section {
   min-height: 100vh;
   background-color: #0f0f0f;
@@ -72,4 +71,37 @@
   background-color: #00ffff;
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
   transform: scale(1.05);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 2rem 3%;
+  }
+
+  .projects-title {
+    font-size: 2rem;
+  }
+
+  .subsection-title {
+    font-size: 1.5rem;
+  }
+
+  .projects-container {
+    gap: 1.5rem;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 350px;
+    padding: 1.2rem;
+  }
+
+  .project-img {
+    height: 150px;
+  }
+
+  .project-link {
+    padding: 0.4rem 1rem;
+  }
 }

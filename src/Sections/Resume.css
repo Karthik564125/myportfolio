@@ -22,6 +22,7 @@
   border: 2px solid cyan;
   border-radius: 10px;
 }
+
 .download-resume-button {
   padding: 0.6rem 1.2rem;
   background: cyan;
@@ -32,7 +33,35 @@
   display: inline-block;
   transition: transform 0.2s ease;
 }
+
 .download-resume-button:hover {
   transform: scale(1.05);
   background-color: #00ffff;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .resume-section {
+    padding: 2rem 3%;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .resume-preview-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .resume-preview {
+    width: 90%;
+    height: auto;
+    max-height: 500px; /* Adjusting height for smaller screens */
+    margin-bottom: 1rem;
+  }
+
+  .download-resume-button {
+    padding: 0.5rem 1rem;
+  }
 }

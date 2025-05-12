@@ -60,3 +60,39 @@
 .home-contact-btn:hover {
   background-color: #00cccc;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .home-section {
+    height: auto;
+    padding: 0 3%;
+    text-align: center;
+  }
+
+  .home-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .home-image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .home-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .home-content h1 {
+    font-size: 2rem;
+  }
+
+  .home-content p {
+    font-size: 1rem;
+  }
+
+  .home-contact-btn {
+    padding: 0.6rem 1.2rem;
+  }
+}
