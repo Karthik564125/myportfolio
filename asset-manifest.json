@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Karthik564125/myportfolio.git/static/css/main.29daa6f4.css",
+    "main.js": "/Karthik564125/myportfolio.git/static/js/main.61df3b75.js",
+    "static/js/453.acca0757.chunk.js": "/Karthik564125/myportfolio.git/static/js/453.acca0757.chunk.js",
+    "static/media/efarming.png": "/Karthik564125/myportfolio.git/static/media/efarming.a6a41cdb11527b554332.png",
+    "static/media/bmi.png": "/Karthik564125/myportfolio.git/static/media/bmi.263db6df1c378b630abf.png",
+    "static/media/karthik.jpg": "/Karthik564125/myportfolio.git/static/media/karthik.4299f463496395754bf8.jpg",
+    "static/media/c2.png": "/Karthik564125/myportfolio.git/static/media/c2.2eb03086c39364806748.png",
+    "static/media/c1.png": "/Karthik564125/myportfolio.git/static/media/c1.21dfa6fb4a29657a4b3b.png",
+    "static/media/c4.png": "/Karthik564125/myportfolio.git/static/media/c4.8e7b9daec3462c4726f9.png",
+    "static/media/weather.png": "/Karthik564125/myportfolio.git/static/media/weather.7a9b5d321283299ad450.png",
+    "static/media/Karthik Resume.pdf": "/Karthik564125/myportfolio.git/static/media/Karthik Resume.0ca0e948331b0e4ea2cc.pdf",
+    "static/media/c5.png": "/Karthik564125/myportfolio.git/static/media/c5.51b0800038d28893aee6.png",
+    "static/media/ibm3.png": "/Karthik564125/myportfolio.git/static/media/ibm3.aa420013dffe5f7c80f7.png",
+    "static/media/ibm2.png": "/Karthik564125/myportfolio.git/static/media/ibm2.e2eabb8cb77df31fd929.png",
+    "static/media/ibm1.png": "/Karthik564125/myportfolio.git/static/media/ibm1.2aa25f88ac5db74e3428.png",
+    "static/media/cp.png": "/Karthik564125/myportfolio.git/static/media/cp.747cf6afa1fade284ef9.png",
+    "static/media/aws.png": "/Karthik564125/myportfolio.git/static/media/aws.dbb6f090fd3097d5d903.png",
+    "static/media/redhat.png": "/Karthik564125/myportfolio.git/static/media/redhat.7b2eefd6798aa3bd9540.png",
+    "index.html": "/Karthik564125/myportfolio.git/index.html",
+    "main.29daa6f4.css.map": "/Karthik564125/myportfolio.git/static/css/main.29daa6f4.css.map",
+    "main.61df3b75.js.map": "/Karthik564125/myportfolio.git/static/js/main.61df3b75.js.map",
+    "453.acca0757.chunk.js.map": "/Karthik564125/myportfolio.git/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29daa6f4.css",
+    "static/js/main.61df3b75.js"
+  ]
+}
