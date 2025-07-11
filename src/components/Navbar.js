@@ -10,6 +10,7 @@ const Navbar = () => {
         <a href="#resume">Resume</a>
         <a href="#education">Education</a>
         <a href="#achievements">Achievements</a>
+         <a href="#techstack">Tech Stack</a>
         <a href="#projects">Projects</a> {/* ✅ fixed here */}
         <a href="#contact">Contact</a>
       </nav>

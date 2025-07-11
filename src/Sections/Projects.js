@@ -4,10 +4,10 @@ import bmi from '../assets/bmi.png';
 import weather from '../assets/weather.png';
 import './Projects.css';
 
-const teamProjects = [
+const allProjects = [
   {
     title: 'EFarming',
-    description: 'Developed a Python-based platform where farmers can list and sell their produce online, enabling efficient transactions for 100+ potential product listings',
+    description: 'Developed a React based platform connecting farmers with consumers, enabling direct sales of fresh produce.',
     img: efarming,
     repoLink: 'https://github.com/Karthik564125/EFarming',
   },
@@ -17,10 +17,6 @@ const teamProjects = [
     img: bmi,
     repoLink: 'https://github.com/bhavana050604/bmi',
   },
-];
-
-const soloProjects = [
-
   {
     title: 'Weather App',
     description: 'React app fetching live weather data using OpenWeatherMap API with elegant UI.',
@@ -34,28 +30,16 @@ const Projects = () => {
   return (
     <section id="projects" className="projects-section">
       <h2 className="projects-title">Projects</h2>
-
-      <h3 className="subsection-title">Team Tasks</h3>
       <div className="projects-container">
-        {teamProjects.map((project, index) => (
+        {allProjects.map((project, index) => (
           <div className="project-card" key={index}>
             <img src={project.img} alt={project.title} className="project-img" />
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="project-link">GitHub Repo</a>
-          </div>
-        ))}
-      </div>
-
-      <h3 className="subsection-title">Individual Projects</h3>
-      <div className="projects-container">
-        {soloProjects.map((project, index) => (
-          <div className="project-card" key={index}>
-            <img src={project.img} alt={project.title} className="project-img" />
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="project-link">GitHub Repo</a>
-            <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="project-link">Live Demo</a>
+            {project.liveLink && (
+              <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="project-link">Live Demo</a>
+            )}
           </div>
         ))}
       </div>

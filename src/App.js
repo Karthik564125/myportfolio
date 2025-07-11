@@ -9,6 +9,8 @@ import Education from './Sections/Education';
 import Achievements from './Sections/Achievements';
 import Projects from './Sections/Projects'; // ✅ still include
 import Contact from './Sections/Contact';
+import TechStack from './Sections/TechStack';
+
 
 import './App.css';
 
@@ -27,7 +29,9 @@ function App() {
       <Resume />
       <Education />
       <Achievements />
-      <Projects /> {/* ✅ Just place it here like a normal section */}
+      <TechStack />
+      <Projects />
+       {/* ✅ Just place it here like a normal section */}
       <Contact />
     </div>
   );

@@ -1,16 +1,17 @@
 .contact-section {
   background-color: #0a0a0a;
   color: white;
-  padding: 100px 20px 80px; /* more top padding for better spacing */
+  padding: 100px 20px 80px;
   text-align: center;
-  scroll-margin-top: 100px; /* prevents navbar overlap when navigated via anchor */
-  min-height: 100vh; /* ensures it takes full screen if needed */
+  scroll-margin-top: 100px;
+  min-height: 100vh;
 }
 
 .contact-section h2 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   margin-bottom: 40px;
   color: cyan;
+  text-shadow: 0 0 8px cyan;
 }
 
 .contact-container {
@@ -18,56 +19,74 @@
   flex-direction: column;
   align-items: center;
   gap: 25px;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
-.contact-item {
+.contact-card {
   display: flex;
-  align-items: center;
-  gap: 15px;
-  font-size: 1.1rem;
-  color: #ccc;
+  align-items: flex-start;
+  gap: 20px;
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.15);
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contact-item a {
+.contact-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.25);
+}
+
+.contact-icon {
+  font-size: 1.8rem;
   color: #0ff;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
+  margin-top: 4px;
 }
 
-.contact-item a:hover {
+.contact-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #999;
+  margin-bottom: 3px;
+  text-align: left;
+}
+
+.contact-card a,
+.contact-card span {
+  color: #0ff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
   text-decoration: underline;
   color: #66ffff;
 }
 
-.contact-icon {
-  font-size: 1.5rem;
-  color: #0ff;
-}
-
-/* Mobile Responsiveness */
+/* Responsive */
 @media (max-width: 768px) {
   .contact-section {
     padding: 80px 20px 60px;
   }
 
-  .contact-container {
-    gap: 15px;
-    max-width: 100%;
-  }
-
-  .contact-item {
-    font-size: 1rem;
-  }
-
   .contact-section h2 {
-    font-size: 2rem;
-    margin-bottom: 25px;
+    font-size: 2.2rem;
+  }
+
+  .contact-container {
+    gap: 20px;
+  }
+
+  .contact-card {
+    flex-direction: row;
+    gap: 15px;
+    padding: 16px;
   }
 
   .contact-icon {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 }
