@@ -8,21 +8,10 @@ This is a personal portfolio website built using **React** and deployed on **Git
 
 ## ✨ Features
 
-- 🔹 **Responsive Design** — optimized for desktop and mobile
-- 🧠 **About Me** section with typing animation
-- 📄 **Resume preview** with Google Drive redirect
-- 📚 **Education & Achievements** sections
-- ⚙️ **Projects gallery** with GitHub/live demo links
-- 📬 **Contact form** with mail, phone, LinkedIn, and location
-
----
-
-## 🛠 Tech Stack
-
-- **Frontend**: React, HTML5, CSS3, JavaScript
-- **Styling**: Custom CSS, AOS (Animate on Scroll)
-- **Icons**: React Icons
-- **Deployment**: GitHub Pages
-
----
-
+- 🔹 **Responsive Design** — Optimized for desktop and mobile
+- 🧠 **About Me** Introduction
+- 📄 **Resume preview** With Google Drive redirect
+- 📚 **Education & Achievements** Sections
+- ⚙️ **Tech Stack** Show cases my tech skils
+- 📂 **Projects gallery** With GitHub/live demo links
+- 📬 **Contact form** With mail, phone, LinkedIn, and location
