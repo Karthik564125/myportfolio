@@ -1,103 +1,32 @@
-/* Navbar */
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: #000;
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 40px;
-  z-index: 1000;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #0ff;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.nav-links {
-  display: flex;
-  gap: 30px;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: #0ff;
-}
-
-/* Projects Section */
-.projects-section {
-  padding: 3rem 2rem;
-  background: #0a0a0a;
-  color: white;
-  text-align: center;
-}
-
-.projects-title {
-  font-size: 2.5rem;
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  font-size: 26px;
   color: cyan;
-  margin-bottom: 2rem;
+  cursor: pointer;
 }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  justify-items: center;
-}
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    background-color: #000;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    gap: 20px;
+    padding: 1rem 0;
+    box-shadow: 0 10px 20px rgba(0, 255, 255, 0.2);
+  }
 
-.project-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 2px solid cyan;
-  border-radius: 1rem;
-  padding: 1.5rem;
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 8px 20px rgba(0, 255, 255, 0.1);
-}
+  .nav-links.active {
+    display: flex;
+  }
 
-.project-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 30px rgba(0, 255, 255, 0.4);
-}
-
-.project-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-
-.project-desc {
-  font-size: 0.95rem;
-  color: #ccc;
-}
-
-.project-link {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: cyan;
-  color: black;
-  border: none;
-  border-radius: 0.5rem;
-  font-weight: bold;
-  text-decoration: none;
-  transition: transform 0.2s ease;
-}
-
-.project-link:hover {
-  transform: scale(1.05);
-  background-color: #00ffff;
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+  .hamburger {
+    display: block;
+  }
 }
