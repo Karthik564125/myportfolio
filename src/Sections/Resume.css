@@ -11,13 +11,17 @@
   box-sizing: border-box;
 }
 
-/* Section title */
+/* Section title – updated to remove glow */
 .section-title {
   font-size: 2.5rem;
   color: white;
   margin-bottom: 40px;
   font-weight: 700;
   text-align: center;
+  text-shadow: none !important;
+  filter: none !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Resume container (clean and full width) */
