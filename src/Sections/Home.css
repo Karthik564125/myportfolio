@@ -65,9 +65,10 @@
 @media (max-width: 768px) {
   .home-section {
     height: auto;
-    padding: 0 3%;
+    padding: 100px 3% 0; /* ADD top padding to push down from navbar */
     text-align: center;
   }
+
 
   .home-container {
     flex-direction: column;

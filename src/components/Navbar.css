@@ -1,32 +1,78 @@
-/* Hamburger icon */
-.hamburger {
-  display: none;
-  font-size: 26px;
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
   color: cyan;
-  cursor: pointer;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
 }
 
-/* Mobile styles */
-@media screen and (max-width: 768px) {
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: cyan;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: cyan;
+}
+
+/* ------------ Mobile Styles ------------ */
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
   .nav-links {
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 100%;
-    background-color: #000;
-    flex-direction: column;
-    align-items: center;
     display: none;
-    gap: 20px;
-    padding: 1rem 0;
-    box-shadow: 0 10px 20px rgba(0, 255, 255, 0.2);
+    flex-direction: column;
+    background-color: #111;
+    position: absolute;
+    top: 60px; /* height of navbar */
+    left: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    z-index: 40;
   }
 
   .nav-links.active {
     display: flex;
   }
 
-  .hamburger {
-    display: block;
+  .nav-links a {
+    padding: 0.5rem 0;
+    color: cyan;
+    font-size: 1rem;
   }
+}
+
+/* Add padding to push page content below navbar */
+body {
+  padding-top: 70px; /* adjust based on navbar height */
 }
