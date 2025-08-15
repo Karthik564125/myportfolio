@@ -1,5 +1,6 @@
 import React from 'react';
-import './TechStack.css';
+import './PortfolioStyles.css';
+
 import { FaCode, FaJava, FaHtml5, FaCss3Alt, FaJs, FaReact, FaDatabase, FaCloud } from 'react-icons/fa';
 
 const TechStack = () => {

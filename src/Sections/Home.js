@@ -1,5 +1,6 @@
 import React from 'react';
-import './Home.css';
+import './PortfolioStyles.css';
+
 import profileImg from '../assets/karthik.jpg';
 import { Typewriter } from 'react-simple-typewriter';
 
@@ -15,10 +16,8 @@ const Home = () => {
         <div className="home-content">
           <h1>
             <Typewriter
-              words={["Hey guys, I'm Karthik 👋", "Frontend Developer 💻", "React Enthusiast ⚛️"]}
+              words={["Hey guys, I'm Karthik 👋", "React Enthusiast ⚛️"]}
               loop={Infinity}
-              
-              
               cursor
               cursorStyle="|"
               typeSpeed={60}
@@ -36,7 +35,7 @@ const Home = () => {
             I am ready to take my first Job/Intern Experience
           </p>
 
-          <a href="#contact" className="home-contact-btn">Contact Me</a>
+          
         </div>
 
       </div>

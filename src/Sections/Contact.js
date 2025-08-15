@@ -1,5 +1,6 @@
 import React from 'react';
-import './Contact.css';
+import './PortfolioStyles.css';
+
 import { FaEnvelope, FaLinkedin, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Contact = () => {

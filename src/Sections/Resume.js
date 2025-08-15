@@ -1,6 +1,7 @@
 import React from 'react';
-import './Resume.css';
-import resumeImg from '../assets/resume.jpg';
+import './PortfolioStyles.css';
+
+import resumeImg from '../assets/Resume.jpg';
 
 const Resume = () => {
   return (
@@ -11,7 +12,7 @@ const Resume = () => {
         <img src={resumeImg} alt="Resume Preview" className="resume-thumb" />
 
         <a
-          href="https://drive.google.com/file/d/1RSo4rMh_nWSyuu5q_7XhKhIZPwMQQfkC/view?usp=sharing" 
+          href="https://drive.google.com/file/d/1BW5NuIoE19MRYN4AxMX7Wa36ntd_CQRC/view?usp=drive_link" 
           target="_blank"
           rel="noopener noreferrer"
           className="resume-btn"

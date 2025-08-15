@@ -1,18 +1,17 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './Sections/PortfolioStyles.css';
 
+// Import your components and sections
 import Navbar from './components/Navbar';
 import Home from './Sections/Home';
 import Resume from './Sections/Resume';
 import Education from './Sections/Education';
 import Achievements from './Sections/Achievements';
-import Projects from './Sections/Projects'; // ✅ still include
+import Projects from './Sections/Projects';
 import Contact from './Sections/Contact';
 import TechStack from './Sections/TechStack';
-
-
-import './App.css';
 
 function App() {
   useEffect(() => {
@@ -31,7 +30,6 @@ function App() {
       <Achievements />
       <TechStack />
       <Projects />
-       {/* ✅ Just place it here like a normal section */}
       <Contact />
     </div>
   );

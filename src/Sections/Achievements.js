@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Achievements.css';
+import './PortfolioStyles.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -8,6 +8,8 @@ import redhat from '../assets/redhat.png';
 import cp from '../assets/cp.png';
 import c1 from '../assets/c1.png';
 import c2 from '../assets/c2.png';
+import c3 from '../assets/c3.png';
+import c4 from '../assets/c4.png';
 import c5 from '../assets/c5.png';
 
 const achievements = [
@@ -25,9 +27,6 @@ const achievements = [
     img: cp,
     verifyLink: 'https://www.credly.com/badges/423cedc4-6c58-4f28-bb88-95c257e98daf/public_url',
   },
-
-
-
   {
     title: 'Salesforce Certified AI Associate',
     issuer: 'Salesforce',
@@ -36,12 +35,26 @@ const achievements = [
     verifyLink: 'https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=PK6MYCFFBeL1bvJaTqOJBA87evizm9h1P/smbtR60U9lksJCaRUgpPcNiSzDDwod',
   },
   {
+    title: 'Multicloud Network Associate',
+    issuer: 'Aviatrix',
+    issued: 'Issued 26/07/25',
+    img: c3,
+    verifyLink: 'https://www.credly.com/badges/b2dca24b-2326-4ed7-aa9d-0aad2ada6aa3/public_url',
+  },
+  {
+    title: 'Automation Anywhere Certified Essentials RPA Professional 2023',
+    issuer: 'Automation Anywhere',
+    issued: 'Issued 03/01/25',
+    img: c4,
+    verifyLink: 'https://certificates.automationanywhere.com/02898852-f994-4dfc-a1da-62abc47deda3',
+  },
+
+  {
     title: 'Web Full Stack Developer Virtual Internship',
     issuer: 'EduSkills Academy',
     issued: 'Issued September, 2024',
     img: c1,
   },
-
   {
     title: 'Employability Skills',
     issuer: 'APSSDC',
@@ -49,6 +62,7 @@ const achievements = [
     img: c2,
   },
 
+  
 
 ];
 
